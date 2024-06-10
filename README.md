@@ -20,10 +20,13 @@ In this project, I use Spring Boot to develop the back end and HTML5, CSS3, and 
     spring.jpa.show-sql=true
     spring.jpa.format-sql=true
     })
-
-4. Run the back end
+4. register at `https://www.exchangerate-api.com/`
+5. Write the password that arrived in your email in this code in the file `Principal` :
+   ```Java
+       private final String API_KEY = "YOUR_API_KEY";
+7. Run the back end
     1. Move to the file `SpringSerieApplication` and run it:
-5. Run the frond end
+8. Run the frond end
     1. download `live server` in `visual studio code extensions`
     2. Move to the file `index.html`
     3. Right click and click `open with live server`
